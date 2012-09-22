@@ -1,0 +1,988 @@
+/* Reset */
+.ergoSkin table, .ergoSkin tbody, .ergoSkin a, .ergoSkin img, .ergoSkin tr, .ergoSkin div, .ergoSkin td, .ergoSkin iframe, .ergoSkin span, .ergoSkin *, .ergoSkin .mceText {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	white-space: nowrap;
+	text-decoration: none;
+	font-weight: normal;
+	cursor: default;
+	color: #444;
+	vertical-align: baseline;
+	width: auto;
+	border-collapse: separate;
+	text-align: left
+}
+
+.ergoSkin a:hover, .ergoSkin a:link, .ergoSkin a:visited, .ergoSkin a:active {
+	text-decoration: none;
+	font-weight: normal;
+	cursor: default;
+	color: #232323
+}
+
+.ergoSkin table td {
+	vertical-align: middle
+}
+
+/* Containers */
+.ergoSkin table {
+	direction:ltr;
+}
+.ergoSkin iframe {
+	display: block;
+	background: #FFF;
+}
+
+.ergoSkin .mceToolbar {
+	height: 32px;
+	padding: 0 0 2px 2px;
+}
+
+.ergoSkin .mceLeft {
+	text-align: left
+}
+
+.ergoSkin .mceRight {
+	text-align: right
+}
+
+/* External */
+.ergoSkin .mceExternalToolbar {
+	position: absolute;
+	border: 1px solid #ebebeb;
+	border-bottom: 0;
+	display: none;
+}
+
+.ergoSkin .mceExternalToolbar td.mceToolbar {
+	padding-right: 13px;
+}
+
+.ergoSkin .mceExternalClose {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	width: 7px;
+	height: 7px;
+	background: url('img/icons.png') -820px 0
+}
+
+/* Layout */
+.ergoSkin table.mceLayout {
+	border: 0;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+}
+
+.ergoSkin table.mceLayout tr.mceFirst td {
+	border-top: 1px solid #ebebeb;
+}
+
+.ergoSkin table.mceLayout tr.mceLast td {
+	border-bottom: 1px solid #ebebeb;
+	background: #fff;
+}
+
+.ergoSkin table.mceToolbar, .ergoSkin tr.mceFirst .mceToolbar tr td, .ergoSkin tr.mceLast .mceToolbar tr td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.ergoSkin td.mceToolbar {
+	padding-top: 1px;
+	vertical-align: top;
+	background-color: #fff;
+}
+
+.ergoSkin .mceIframeContainer {
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.ergoSkin .mceStatusbar {
+	padding: 0 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+	overflow: visible;
+	color: #444;
+	display: block;
+	height: 24px
+}
+
+.ergoSkin .mceStatusbar div {
+	float: left;
+	margin:2px;
+	color: #444;
+}
+
+.ergoSkin .mceStatusbar a.mceResize {
+	display: block;
+	float: right;
+	background: url('img/icons.png') -801px -2px;
+	width: 20px;
+	height: 20px;
+	cursor: se-resize;
+	outline:0;
+}
+
+.ergoSkin .mceStatusbar a:hover {
+	text-decoration: underline
+}
+
+.ergoSkin table.mceToolbar {
+	margin-left: 3px
+}
+
+.ergoSkin span.mceIcon, .ergoSkin img.mceIcon {
+	display: block;
+	width: 20px;
+	height: 20px
+}
+
+.ergoSkin .mceIcon {
+	background: url('img/icons.png') no-repeat 20px 20px
+}
+
+.ergoSkin td.mceCenter {
+	text-align: center;
+}
+
+.ergoSkin td.mceCenter table {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.ergoSkin td.mceRight table {
+	margin: 0 0 0 auto;
+}
+
+/* Button */
+.ergoSkin .mceButton {
+	background: #fff;
+	cursor: default;
+	display: block;
+	height: 20px;
+	margin: 1px;
+	padding: 1px 2px;
+	width: 20px;
+	border-color: #ebebeb;
+}
+
+.ergoSkin a.mceButtonEnabled:hover {
+	background: #ebebeb;
+	border-color: #d1d1d1;
+}
+
+.ergoSkin a.mceButtonActive, .ergoSkin a.mceButtonSelected {
+	background: #fffccf;
+	border-color: #c6c6c6;
+}
+
+.ergoSkin .mceButtonDisabled .mceIcon {
+	opacity: 0.3;
+	-ms-filter: 'alpha(opacity=30)';
+	filter: alpha(opacity = 30);
+}
+
+.ergoSkin .mceButtonLabeled {
+	width: auto;
+}
+
+.ergoSkin .mceButtonLabeled span.mceIcon {
+	float: left;
+}
+
+.ergoSkin span.mceButtonLabel {
+	display: block;
+	font-size: 10px;
+	padding: 4px 6px 0 22px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ergoSkin .mceButtonDisabled .mceButtonLabel {
+	color: #888;
+}
+
+/* Separator */
+.ergoSkin .mceSeparator {
+	background: none repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	margin: 0 2px;
+	overflow: hidden;
+	width: 1px;
+}
+
+/* ListBox */
+.ergoSkin .mceListBox {
+	direction: ltr;
+	margin: 1px;
+}
+
+.ergoSkin .mceListBox, .ergoSkin .mceListBox a {
+	display: block
+}
+
+.ergoSkin .mceListBox .mceText {
+	padding: 1px 2px 1px 5px;
+	text-align: left;
+	text-decoration: none !important;
+	width: 70px;
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.ergoSkin .mceListBox .mceText, .ergoSkin .mceListBox .mceOpen {
+	background-color: #fff;
+	border-color: #ebebeb;
+}
+
+.ergoSkin table.mceListBoxEnabled:hover .mceOpen, .ergoSkin .mceListBoxHover .mceOpen, .ergoSkin .mceListBoxSelected .mceOpen, .ergoSkin .mceListBoxSelected .mceText {
+	background: #ebebeb;
+	border-color: #d1d1d1;
+}
+
+.ergoSkin table.mceListBoxEnabled:hover .mceText, .ergoSkin .mceListBoxHover .mceText {
+	border-color: #d1d1d1;
+}
+
+.ergoSkin table.mceListBoxEnabled:hover .mceText, .ergoSkin .mceListBoxHover .mceText, .ergoSkin .mceListBoxSelected .mceText, .ergoSkin table.mceListBoxEnabled:hover .mceOpen, .ergoSkin .mceListBoxHover .mceOpen, .ergoSkin .mceListBoxSelected .mceOpen {
+	background-image: none;
+}
+
+.ergoSkin .mceListBoxDisabled a.mceText {
+	color: gray;
+	background-color: transparent;
+}
+
+.ergoSkin .mceListBoxMenu {
+	overflow: auto;
+	overflow-x: hidden
+}
+
+.ergoSkin .mceOldBoxModel .mceListBox .mceText {
+	height: 22px
+}
+
+.ergoSkin .mceOldBoxModel .mceListBox .mceOpen {
+	width: 11px;
+	height: 22px;
+}
+
+.ergoSkin select.mceNativeListBox {
+	font: 11px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	background: #F0F0EE;
+	border: 1px solid gray;
+	margin-right: 2px;
+}
+
+.ergoSkin .mceListBox .mceOpen {
+	width: 14px;
+	height: 20px;
+	border-collapse: separate;
+	background: #fff;
+	padding: 1px;
+	border-left: 0 none !important;
+}
+
+.ergoSkin .mceListBox .mceOpen span {
+	display: block;
+	width: 14px;
+	height: 20px;
+	background-image: url(img/down_arrow.gif);
+	background-position: 2px 1px;
+	background-repeat: no-repeat;
+}
+
+/* SplitButton */
+.ergoSkin .mceSplitButton {
+	width: 32px;
+	height: 20px;
+	direction: ltr
+}
+
+.ergoSkin .mceSplitButton a, .ergoSkin .mceSplitButton span {
+	height: 20px;
+}
+
+.ergoSkin .mceSplitButton a {
+	display: block;
+}
+
+.ergoSkin .mceSplitButton a.mceAction {
+	height: 20px;
+	width: 20px;
+	padding: 1px 2px;
+	display: block;
+}
+
+.ergoSkin .mceSplitButton span.mceAction {
+	width: 20px;
+	background: url('img/icons.png') 20px 20px;
+	display: block;
+}
+
+.ergoSkin .mceSplitButton a.mceOpen {
+	width: 10px;
+	height: 20px;
+	background-image: url(img/down_arrow.gif);
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+	padding: 1px;
+	border-left: 0 none !important;
+}
+
+.ergoSkin .mceSplitButtonDisabled .mceAction, .ergoSkin .mceSplitButtonDisabled span.mceOpen {
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+}
+
+.ergoSkin .mceSplitButtonActive a.mceAction {
+	border: 1px solid #0A246A;
+	background-color: #C2CBE0;
+}
+
+.ergoSkin table.mceSplitButton td {
+	background-image: url(img/butt2.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+.ergoSkin .mceSplitButton a.mceAction, .ergoSkin .mceSplitButton a.mceOpen {
+	border-color: #B2B2B2;
+}
+
+.ergoSkin .mceSplitButton a.mceOpen:hover, .ergoSkin .mceSplitButtonSelected a.mceOpen, .ergoSkin table.mceSplitButtonEnabled:hover a.mceAction, .ergoSkin .mceSplitButton a.mceAction:hover {
+	background-color: #d5d5d5;
+	border-color: #777 !important;
+}
+
+/* ColorSplitButton */
+.ergoSkin div.mceColorSplitMenu table {
+	background: #FFF;
+	border: 1px solid gray
+}
+
+.ergoSkin .mceColorSplitMenu td {
+	padding: 2px
+}
+
+.ergoSkin .mceColorSplitMenu a {
+	display: block;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	border: 1px solid #808080
+}
+
+.ergoSkin .mceColorSplitMenu td.mceMoreColors {
+	padding: 1px 3px 1px 1px
+}
+
+.ergoSkin .mceColorSplitMenu a.mceMoreColors {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	border: 1px solid #FFF
+}
+
+.ergoSkin .mceColorSplitMenu a.mceMoreColors:hover {
+	border: 1px solid #0A246A;
+	background-color: #B6BDD2
+}
+
+.ergoSkin a.mceMoreColors:hover {
+	border: 1px solid #0A246A
+}
+
+.ergoSkin .mceColorPreview {
+	margin-left: 2px;
+	width: 16px;
+	height: 3px;
+	overflow: hidden;
+	background: #9a9b9a
+}
+
+.ergoSkin .mce_forecolor span.mceAction, .ergoSkin .mce_backcolor span.mceAction {
+	overflow: hidden;
+	height: 16px
+}
+
+/* Menu */
+.ergoSkin .mceMenu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1232323;
+	border: 1px solid #D4D0C8
+}
+
+.ergoSkin .mceNoIcons span.mceIcon {
+	width: 0;
+}
+
+.ergoSkin .mceNoIcons a .mceText {
+	padding-left: 10px
+}
+
+.ergoSkin .mceMenu table {
+	background: #FFF
+}
+
+.ergoSkin .mceMenu a, .ergoSkin .mceMenu span, .ergoSkin .mceMenu {
+	display: block
+}
+
+.ergoSkin .mceMenu td {
+	height: 20px
+}
+
+.ergoSkin .mceMenu a {
+	position: relative;
+	padding: 3px 0 4px 0
+}
+
+.ergoSkin .mceMenu .mceText {
+	position: relative;
+	display: block;
+	font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+	color: #232323;
+	cursor: default;
+	margin: 0;
+	padding: 0 25px 0 25px;
+	display: block
+}
+
+.ergoSkin .mceMenu span.mceText, .ergoSkin .mceMenu .mcePreview {
+	font-size: 11px
+}
+
+.ergoSkin .mceMenu pre.mceText {
+	font-family: Monospace
+}
+
+.ergoSkin .mceMenu .mceIcon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 22px;
+}
+
+.ergoSkin .mceMenu .mceMenuItemEnabled a:hover, .ergoSkin .mceMenu .mceMenuItemActive {
+	background-color: #6ec315;
+}
+
+.ergoSkin td.mceMenuItemSeparator {
+	background: #DDD;
+	height: 1px
+}
+
+.ergoSkin .mceMenuItemTitle a {
+	border: 0;
+	background: #EEE;
+	border-bottom: 1px solid #DDD
+}
+
+.ergoSkin .mceMenuItemTitle span.mceText {
+	color: #232323;
+	font-weight: bold;
+	padding-left: 4px
+}
+
+.ergoSkin .mceMenuItemDisabled .mceText {
+	color: #888
+}
+
+.ergoSkin .mceMenuItemSelected .mceIcon {
+	background: url('img/menu-check.png')
+}
+
+.ergoSkin .mceNoIcons .mceMenuItemSelected a {
+	background: url('img/menu-arrow.png') no-repeat -6px center
+}
+
+.ergoSkin .mceMenu span.mceMenuLine {
+	display: none
+}
+
+.ergoSkin .mceMenuItemSub a {
+	background: url('img/menu-arrow.png') no-repeat top right;
+}
+
+/* Progress,Resize */
+.ergoSkin .mceBlocker {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1232323;
+	opacity: 0.5;
+	-ms-filter: 'alpha(opacity=50)';
+	filter: alpha(opacity = 50);
+	background: #FFF
+}
+
+.ergoSkin .mceProgress {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1001;
+	background: url('img/progress.gif') no-repeat;
+	width: 31px;
+	height: 31px;
+	margin: -16px 0 0 -16px
+}
+
+.ergoSkin .mcePlaceHolder {
+	border: 1px dotted gray
+}
+
+/* Formats */
+.ergoSkin .mce_formatPreview a {
+	font-size: 10px
+}
+
+.ergoSkin .mce_formatPreview a:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_p span.mceText {
+}
+
+.ergoSkin .mce_address span.mceText {
+	font-style: italic
+}
+
+.ergoSkin .mce_pre span.mceText {
+	font-family: monospace
+}
+
+.ergoSkin .mce_pre span.mceText:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_h1 span.mceText {
+	font-weight: bolder;
+	font-size: 2em
+}
+
+.ergoSkin .mce_h1 span.mceText:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_h2 span.mceText {
+	font-weight: bolder;
+	font-size: 1.5em
+}
+
+.ergoSkin .mce_h2 span.mceText:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_h3 span.mceText {
+	font-weight: bolder;
+	font-size: 1.17em
+}
+
+.ergoSkin .mce_h3 span.mceText:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_h4 span.mceText {
+	font-weight: bolder;
+	font-size: 1em
+}
+
+.ergoSkin .mce_h4 span.mceText:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_h5 span.mceText {
+	font-weight: bolder;
+	font-size: .83em
+}
+
+.ergoSkin .mce_h5 span.mceText:hover {
+	color: #fff;
+}
+
+.ergoSkin .mce_h6 span.mceText {
+	font-weight: bolder;
+	font-size: .75em
+}
+
+.ergoSkin .mce_h6 span.mceText:hover {
+	color: #fff;
+}
+
+
+/* border */
+.ergoSkin .mceExternalToolbar, .ergoSkin .mceButton, .ergoSkin a.mceButtonEnabled:hover, .ergoSkin a.mceButtonActive, .ergoSkin a.mceButtonSelected, .ergoSkin .mceListBox .mceText, .ergoSkin .mceListBox .mceOpen, .ergoSkin table.mceListBoxEnabled:hover .mceText, .ergoSkin .mceListBoxHover .mceText, .ergoSkin .mceListBoxSelected .mceText, .ergoSkin table.mceListBoxEnabled:hover .mceOpen, .ergoSkin .mceListBoxHover .mceOpen, .ergoSkin .mceListBoxSelected .mceOpen, .ergoSkin select.mceListBox, .ergoSkin .mceSplitButton a.mceAction, .ergoSkin .mceSplitButton a.mceOpen, .ergoSkin .mceSplitButton a.mceOpen:hover, .ergoSkin .mceSplitButtonSelected a.mceOpen, .ergoSkin table.mceSplitButtonEnabled:hover a.mceAction, .ergoSkin .mceSplitButton a.mceAction:hover, .ergoSkin div.mceColorSplitMenu table, .ergoSkin .mceColorSplitMenu a, .ergoSkin .mceColorSplitMenu a.mceMoreColors, .ergoSkin .mceColorSplitMenu a.mceMoreColors:hover, .ergoSkin a.mceMoreColors:hover, .ergoSkin .mceMenu {
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* Theme */
+.ergoSkin span.mce_bold {
+	background-position: 0 0 !important;
+}
+
+.ergoSkin span.mce_italic {
+	background-position: -60px 0 !important;
+}
+
+.ergoSkin span.mce_underline {
+	background-position: -140px 0 !important;
+}
+
+.ergoSkin span.mce_strikethrough {
+	background-position: -120px 0 !important;
+}
+
+.ergoSkin span.mce_undo {
+	background-position: -160px 0 !important;
+}
+
+.ergoSkin span.mce_redo {
+	background-position: -100px 0 !important;
+}
+
+.ergoSkin span.mce_cleanup {
+	background-position: -40px 0 !important;
+}
+
+.ergoSkin span.mce_bullist {
+	background-position: -20px 0 !important;
+}
+
+.ergoSkin span.mce_numlist {
+	background-position: -80px 0 !important;
+}
+
+.ergoSkin span.mce_justifyleft {
+	background-position: -460px 0 !important;
+}
+
+.ergoSkin span.mce_justifyright {
+	background-position: -480px 0 !important;
+}
+
+.ergoSkin span.mce_justifycenter {
+	background-position: -420px 0 !important;
+}
+
+.ergoSkin span.mce_justifyfull {
+	background-position: -440px 0 !important;
+}
+
+.ergoSkin span.mce_anchor {
+	background-position: -200px 0 !important;
+}
+
+.ergoSkin span.mce_indent {
+	background-position: -400px 0 !important;
+}
+
+.ergoSkin span.mce_outdent {
+	background-position: -540px 0 !important;
+}
+
+.ergoSkin span.mce_link {
+	background-position: -500px 0 !important;
+}
+
+.ergoSkin span.mce_unlink {
+	background-position: -640px 0 !important;
+}
+
+.ergoSkin span.mce_sub {
+	background-position: -600px 0 !important;
+}
+
+.ergoSkin span.mce_sup {
+	background-position: -620px 0 !important;
+}
+
+.ergoSkin span.mce_removeformat {
+	background-position: -580px 0 !important;
+}
+
+.ergoSkin span.mce_newdocument {
+	background-position: -520px 0 !important;
+}
+
+.ergoSkin span.mce_image {
+	background-position: -380px 0 !important;
+}
+
+.ergoSkin span.mce_help {
+	background-position: -340px 0 !important;
+}
+
+.ergoSkin span.mce_code {
+	background-position: -260px 0 !important;
+}
+
+.ergoSkin span.mce_hr {
+	background-position: -360px 0 !important;
+}
+
+.ergoSkin span.mce_visualaid {
+	background-position: -660px 0 !important;
+}
+
+.ergoSkin span.mce_charmap {
+	background-position: -240px 0 !important;
+}
+
+.ergoSkin span.mce_paste {
+	background-position: -560px 0 !important;
+}
+
+.ergoSkin span.mce_copy {
+	background-position: -700px 0 !important;
+}
+
+.ergoSkin span.mce_cut {
+	background-position: -680px 0 !important;
+}
+
+.ergoSkin span.mce_blockquote {
+	background-position: -220px 0 !important;
+}
+
+.ergoSkin .mce_forecolor span.mceAction {
+	background-position: -720px 0 !important;
+}
+
+.ergoSkin .mce_backcolor span.mceAction {
+	background-position: -760px 0 !important;
+}
+
+.ergoSkin span.mce_forecolorpicker {
+	background-position: -720px 0 !important;
+}
+
+.ergoSkin span.mce_backcolorpicker {
+	background-position: -760px 0 !important;
+}
+
+/* Plugins */
+.ergoSkin span.mce_advhr {
+	background-position: -0px -20px !important;
+}
+
+.ergoSkin span.mce_ltr {
+	background-position: -20px -20px !important;
+}
+
+.ergoSkin span.mce_rtl {
+	background-position: -40px -20px !important;
+}
+
+.ergoSkin span.mce_emotions {
+	background-position: -60px -20px !important;
+}
+
+.ergoSkin span.mce_fullpage {
+	background-position: -80px -20px !important;
+}
+
+.ergoSkin span.mce_fullscreen {
+	background-position: -100px -20px !important;
+}
+
+.ergoSkin span.mce_iespell {
+	background-position: -120px -20px !important;
+}
+
+.ergoSkin span.mce_insertdate {
+	background-position: -140px -20px !important;
+}
+
+.ergoSkin span.mce_inserttime {
+	background-position: -160px -20px !important;
+}
+
+.ergoSkin span.mce_absolute {
+	background-position: -180px -20px !important;
+}
+
+.ergoSkin span.mce_backward {
+	background-position: -200px -20px !important;
+}
+
+.ergoSkin span.mce_forward {
+	background-position: -220px -20px !important;
+}
+
+.ergoSkin span.mce_insert_layer {
+	background-position: -240px -20px !important;
+}
+
+.ergoSkin span.mce_insertlayer {
+	background-position: -260px -20px !important;
+}
+
+.ergoSkin span.mce_movebackward {
+	background-position: -280px -20px !important;
+}
+
+.ergoSkin span.mce_moveforward {
+	background-position: -300px -20px !important;
+}
+
+.ergoSkin span.mce_media {
+	background-position: -320px -20px !important;
+}
+
+.ergoSkin span.mce_nonbreaking {
+	background-position: -340px -20px !important;
+}
+
+.ergoSkin span.mce_pastetext {
+	background-position: -360px -20px !important;
+}
+
+.ergoSkin span.mce_pasteword {
+	background-position: -380px -20px !important;
+}
+
+.ergoSkin span.mce_selectall {
+	background-position: -400px -20px !important;
+}
+
+.ergoSkin span.mce_preview {
+	background-position: -420px -20px !important;
+}
+
+.ergoSkin span.mce_print {
+	background-position: -440px -20px !important;
+}
+
+.ergoSkin span.mce_cancel {
+	background-position: -460px -20px !important;
+}
+
+.ergoSkin span.mce_save {
+	background-position: -480px -20px !important;
+}
+
+.ergoSkin span.mce_replace {
+	background-position: -500px -20px !important;
+}
+
+.ergoSkin span.mce_search {
+	background-position: -520px -20px !important;
+}
+
+.ergoSkin span.mce_styleprops {
+	background-position: -560px -20px !important;
+}
+
+.ergoSkin span.mce_table {
+	background-position: -580px -20px !important;
+}
+
+.ergoSkin span.mce_cell_props {
+	background-position: -600px -20px !important;
+}
+
+.ergoSkin span.mce_delete_table {
+	background-position: -620px -20px !important;
+}
+
+.ergoSkin span.mce_delete_col {
+	background-position: -640px -20px !important;
+}
+
+.ergoSkin span.mce_delete_row {
+	background-position: -660px -20px !important;
+}
+
+.ergoSkin span.mce_col_after {
+	background-position: -680px -20px !important;
+}
+
+.ergoSkin span.mce_col_before {
+	background-position: -700px -20px !important;
+}
+
+.ergoSkin span.mce_row_after {
+	background-position: -720px -20px !important;
+}
+
+.ergoSkin span.mce_row_before {
+	background-position: -740px -20px !important;
+}
+
+.ergoSkin span.mce_merge_cells {
+	background-position: -760px -20px !important;
+}
+
+.ergoSkin span.mce_table_props {
+	background-position: -980px -20px !important;
+}
+
+.ergoSkin span.mce_row_props {
+	background-position: -780px -20px !important;
+}
+
+.ergoSkin span.mce_split_cells {
+	background-position: -800px -20px !important;
+}
+
+.ergoSkin span.mce_template {
+	background-position: -820px -20px !important;
+}
+
+.ergoSkin span.mce_visualchars {
+	background-position: -840px -20px !important;
+}
+
+.ergoSkin span.mce_abbr {
+	background-position: -860px -20px !important;
+}
+
+.ergoSkin span.mce_acronym {
+	background-position: -880px -20px !important;
+}
+
+.ergoSkin span.mce_attribs {
+	background-position: -900px -20px !important;
+}
+
+.ergoSkin span.mce_cite {
+	background-position: -920px -20px !important;
+}
+
+.ergoSkin span.mce_del {
+	background-position: -940px -20px !important;
+}
+
+.ergoSkin span.mce_ins {
+	background-position: -960px -20px !important;
+}
+
+.ergoSkin span.mce_pagebreak {
+	background-position: 0 -40px !important;
+}
+
+.ergoSkin .mce_spellchecker span.mceAction {
+	background-position: -540px -20px !important;
+}
+
+.ergoSkin span.mce_restoredraft {
+	background-position: -20px -40px !important;
+}
